@@ -1,0 +1,234 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+}
+
+body {
+  color: white;
+}
+body .ourPakeg {
+  background-image: url(../images/newsbg.jpg);
+}
+body .ourPakeg .container h4 {
+  margin-top: 20px;
+}
+@media screen and (max-width: 310px) {
+  body .ourPakeg .container h4 {
+    margin-top: 80px;
+  }
+}
+@media (min-width: 311px) and (max-width: 320px) {
+  body .ourPakeg .container h4 {
+    margin-top: 45px;
+  }
+}
+@media (min-width: 480px) and (max-width: 992px) {
+  body .ourPakeg .container h4 {
+    margin-top: 50px;
+  }
+}
+body .ourPakeg .container .dish-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .ourPakeg .container .dish-container .dishes {
+  width: 100%;
+}
+body .ourPakeg .container .dish-container .dishes .dish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish {
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish img {
+  height: 250px;
+  width: 400px;
+  border-radius: 5px 5px 0px 0px;
+  border: white 1px solid;
+}
+@media screen and (min-width: 768px) {
+  body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish img {
+    border-radius: 5px 0px 0px 5px;
+  }
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish .pln_yam_fish_text_con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish .pln_yam_fish_text_con .pln_yam_fish_text {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 90%;
+  border-radius: 0px 0px 5px 5px;
+  border: red 2px solid;
+  border-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish .pln_yam_fish_text_con .pln_yam_fish_text {
+    border-radius: 0px 5px 5px 0px;
+    border-left: 0px;
+    border-top: red 2px solid;
+    width: 200px;
+    height: 230px;
+  }
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish .pln_yam_fish_text_con .pln_yam_fish_text p {
+  font-family: "Pacifico", cursive;
+  font: 600;
+  font-size: 25px;
+  margin-top: 20px;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish .pln_yam_fish_text_con .pln_yam_fish_text button {
+  width: 85px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 100;
+  font-family: "roboto", sans-serif;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish .pln_yam_fish_text_con .pln_yam_fish_text button:hover {
+  width: 90px;
+  height: 35px;
+  background-color: #d81616;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_1 {
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_1 {
+    display: none;
+  }
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_1 img {
+  height: 250px;
+  width: 400px;
+  border-radius: 5px 5px 0px 0px;
+  border: white 1px solid;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_1 .pln_yam_fish_text_con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_1 .pln_yam_fish_text_con .pln_yam_fish_text {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 90%;
+  border-radius: 0px 0px 5px 5px;
+  border: red 2px solid;
+  border-top: 0px;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_1 .pln_yam_fish_text_con .pln_yam_fish_text p {
+  font-family: "Pacifico", cursive;
+  font: 600;
+  font-size: 25px;
+  margin-top: 20px;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_1 .pln_yam_fish_text_con .pln_yam_fish_text button {
+  width: 85px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 100;
+  font-family: "roboto", sans-serif;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_1 .pln_yam_fish_text_con .pln_yam_fish_text button:hover {
+  width: 90px;
+  height: 35px;
+  background-color: #d81616;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_2 {
+  display: none;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_2 img {
+  height: 250px;
+  width: 400px;
+  border-radius: 0px 5px 5px 0px;
+  border: white 1px solid;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_2 .pln_yam_fish_text_con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_2 .pln_yam_fish_text_con .pln_yam_fish_text {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 200px;
+  height: 230px;
+  border-radius: 5px 0px 0px 5px;
+  border: red 2px solid;
+  border-right: 0px;
+  border-left: 2px red solid;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_2 .pln_yam_fish_text_con .pln_yam_fish_text p {
+  font-family: "Pacifico", cursive;
+  font: 600;
+  font-size: 25px;
+  margin-top: 20px;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_2 .pln_yam_fish_text_con .pln_yam_fish_text button {
+  width: 85px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 100;
+  font-family: "roboto", sans-serif;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_2 .pln_yam_fish_text_con .pln_yam_fish_text button:hover {
+  width: 90px;
+  height: 35px;
+  background-color: #d81616;
+}/*# sourceMappingURL=menu1.css.map */
