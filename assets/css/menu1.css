@@ -56,7 +56,7 @@ body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish img {
   height: 250px;
   width: 400px;
   border-radius: 5px 5px 0px 0px;
-  border: white 1px solid;
+  border: white 2px solid;
 }
 @media screen and (min-width: 768px) {
   body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish img {
@@ -95,7 +95,7 @@ body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish .pln_yam_f
   font-size: 25px;
   margin-top: 20px;
 }
-body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish .pln_yam_fish_text_con .pln_yam_fish_text button {
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish .pln_yam_fish_text_con .pln_yam_fish_text p button {
   width: 85px;
   height: 30px;
   font-size: 12px;
@@ -109,7 +109,7 @@ body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish .pln_yam_f
   margin-top: 15px;
   margin-bottom: 20px;
 }
-body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish .pln_yam_fish_text_con .pln_yam_fish_text button:hover {
+body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish .pln_yam_fish_text_con .pln_yam_fish_text p button:hover {
   width: 90px;
   height: 35px;
   background-color: #d81616;
@@ -126,7 +126,7 @@ body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_1 img {
   height: 250px;
   width: 400px;
   border-radius: 5px 5px 0px 0px;
-  border: white 1px solid;
+  border: white 2px solid;
 }
 body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_1 .pln_yam_fish_text_con {
   display: flex;
@@ -186,7 +186,7 @@ body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_2 img {
   height: 250px;
   width: 400px;
   border-radius: 0px 5px 5px 0px;
-  border: white 1px solid;
+  border: white 2px solid;
 }
 body .ourPakeg .container .dish-container .dishes .dish .pln_yam_fish_2 .pln_yam_fish_text_con {
   display: flex;

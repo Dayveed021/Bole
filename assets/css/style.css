@@ -1,4 +1,4 @@
-/*
+/* 
 
 Author: Bootstrapthemes
 Author URI: http://bootstrapthemes.co
@@ -437,26 +437,26 @@ Button
 }*/
 .btn-lg,
 .btn-group-lg>.btn {
-    padding: 8px;
+    /* padding: 8px; */
     font-size: 1.2rem;
     border-radius: 4px;
     width: 200px;
     border: 1px solid #fff;
     text-transform: none;
     transition: .6s;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     color: #fff;
 }
 
 button.btn-lg {
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 1.2rem;
     border-radius: 4px;
     width: 200px;
     border: 1px solid #fff;
     text-transform: none;
     transition: .6s;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     color: #fff;
     display: inline-block;
     background: transparent;

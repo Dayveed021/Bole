@@ -1,18 +1,21 @@
-(function(){
-    const fonts = ["cursive","san-serif","monospace"];
-    let captchaValue = "";
-    function generateCaptcha(){
-        let value = btoa(Math.random()*1000000000);
-        value = value.substr(0,5+Math.random()*5);
-        captchaValue = value;
-    }
-    function setCaptcha(){
-        captchaValue.split("").map((char)=>{
-            const rotate = -20 + Math.trunc(Math.random()*30);
-            const font = Math.trunc(Math.random()*fonts.length);
-            return `<span style = "transform:rotate(${rotate}deg);
-            font-family:${fonts[font]}">${char}</span>`; 
-        }).join("");
-        document.querySelector()
-    }
-})();
+function sendMail() {
+    var params = {
+        name: document.getElementById("name").value,
+        number: document.getElementById("number").value,
+        message: document.getElementById("message").value,
+        from_email: document.getElementById("from_email").value,
+    };
+
+    const serviceID = "service_lpcqp38";
+    const templateID = "template_feg2j2s";
+
+    emailjs.send(serviceID, templateID, params).then((res) => {
+        document.getElementById("name").value = "";
+        document.getElementById("number").value = "";
+        document.getElementById("message").value = "";
+        document.getElementById("from_email").value = "";
+        console.log(res);
+        alert("your message has been sent successfully");
+    })
+        .catch((err) => console.log(err));
+}
